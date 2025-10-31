@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME TOWN</title>
+   <style>
+        .photo-wrapper {
+            text-align: center;
+        }
+        .float-photo {
+            float: left;
+            margin: 0 2.5%; 
+        }
+        .clearfix::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        h1, hr {
+            clear: both;
+        }
+        @media (max-width: 1050px) {
+            .float-photo {
+                width: 90%; 
+                float: none;
+                margin: 10px auto;
+                display: block;
+            }
+        }
+    </style>
+</head>
+<body style="background-color: rgb(220, 221, 226);">
+    <center><h1>THIRUVANNAMALAI</h1></center>
+    <hr color="black">
+    <center><h1>CHENGAM</h1></center>
+
+    <div class="photo-wrapper clearfix">
+        <img src="chengam.png" alt="Image of Chengam 1" class="float-photo" width="45%">
+        
+        <img src="chengam1.jpg" alt="Image of Chengam 2" class="float-photo" width="40%">
+    </div>
+    <center>
+        <h3>
+            Chengam's history is marked by the Battle of Chengam in 1767, a key event in the First Anglo-Mysore War where British forces defeated the combined armies of Hyder Ali and the Nizam of Hyderabad. Historically, the town is also significant for the 16th/17th-century Venugopala Parthasarathi Temple, which features ornate paintings depicting the Ramayana.
+        </h3>
+    </center>
+</body>
+</html>
